@@ -1,0 +1,30 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Scrape the internet for data",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigYusuf/scraper.git"
+  },
+  "keywords": [
+    "web scaper",
+    "data scaper",
+    "scraper"
+  ],
+  "author": "BigYusufff- mystik5551@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BigYusuf/scraper/issues"
+  },
+  "homepage": "https://github.com/BigYusuf/scraper#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1"
+  }
+}
